@@ -1,0 +1,82 @@
+# ======================================
+# ShahD Crypto Tool - .gitignore
+# ======================================
+
+# 🔐 ملفات المفاتيح والتسجيل (مهم جداً!)
+private.pem
+public.pem
+shahd_log.txt
+*.key
+*.pem
+*.cer
+*.crt
+
+# 📦 ملفات الضغط
+*.zip
+*.rar
+*.7z
+
+# 🐍 بايثون - ملفات النظام
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# 🐍 بايثون - ملفات التثبيت
+*.egg
+*.egg-info
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+
+# 🔧 بيئات التطوير
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# 📊 ملفات البيانات واللوج
+*.log
+*.sqlite3
+*.db
+
+# 🖼️ ملفات الوسائط
+*.jpg
+*.png
+*.gif
+*.mp4
+
+# 📄 ملفات مؤقتة
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 🎯 ملفات النظام
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# 🔐 ملفات البيئة (Environment Variables)
+.env
+.secrets
+config.ini
+
+# 📋 ملفات المستخدم
+*.docx
+*.pdf
+*.txt
